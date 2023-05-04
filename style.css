@@ -5,9 +5,6 @@
     padding: 0;
     font-family: 'Poppins', sans-serif;
 }
-.fb{
-    display:none;
-}
 .header{
     display: flex;
     justify-content: space-around;
