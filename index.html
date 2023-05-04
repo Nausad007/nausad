@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css" rel="stylesheet">
+    <title>Nausad Alam - Personal Website</title>
+</head>
+<body>
+    <header>
+    <div class="header">
+        <div class="folio">
+            <h1>folio<b>.</b></h1>
+        </div>
+        <div>
+        <nav>
+            <ul class="nav sidebar">
+                <li id="home_">Home</li>
+                <li id="about_">About</li>
+                <li id="skills_">Skills</li>
+                <li id="contact_">Contact</li>
+            </ul>
+        </nav>
+    </div>
+        <div class="ham">
+            <img src="ham.png" alt="ham" id="ham">
+        </div>
+    </div>
+    </header>
+    <main>
+        <section id="home">
+            <div class="home">
+                <div class="first_half">
+                    <div class="topline">Hello<b class="after">.</b></div>
+                    <h1 class="Iam">I'm <span class="multiText"></span></h1>
+                    <p class="paragraph1">My extensive knowledge base has been entirely derived from online resources. With coding as my principal area of interest, I remain open to constructive criticism and suggestions to consistently refine my skills. Further details of my competencies are provided below.</p>
+                </div>
+                <div class="second_half">
+                    <img src="background.png" alt="" id="splash">
+                    <img src="me.png" alt="" id="me">
+                </div>
+            </div>
+        </section>
+        <section id="about">
+            <div class="about">
+                <h2>About</h2>
+                <h3>Welcome to my website! I'm delighted to have you here.</h3>
+                <p class="paragraph2">
+                    My name is Nausad Alam Hawari, and I'm deeply passionate about coding. On this website, I aim to share my expertise, experience, and knowledge to help you create a visually appealing website. Regardless of whether you're a beginner, business owner, or student, I've developed various websites to provide value and support you in achieving your goals.
+                    <br>
+                    <br>
+                    I am dedicated to offering top-notch content, keeping up with the most recent trends, and actively engaging with my audience. Please feel free to explore this website, browse through my articles, and share your opinions with me. Thank you for stopping by, and I hope you find the information and resources provided here to be beneficial!</p>
+            </div>
+        </section>
+        <section id="skills">
+            <div class="skills">
+                <h2>Skills</h2>
+                <h4 class="h4">HTML</h4>
+                <h4 class="h4">CSS</h4>
+                <h4 class="h4">JavaScript</h4>
+                <h4 class="h4">Python</h4>
+                <p class="paragraph2">I possess a diverse set of skills in web development, being proficient in HTML, CSS, JavaScript, and Python. My expertise in HTML and CSS enables me to craft visually appealing and responsive web pages, optimized for any device. I have a proven track record of building engaging and interactive web applications using JavaScript frameworks such as Node.js, and have extensive experience in server-side web development with Python, utilizing the Flask framework. Moreover, I have developed numerous applications using the tkinter module of Python. I am committed to staying on top of emerging trends in web development and always keen to explore new technologies</p>
+            </div>
+        </section>
+        <section id="contact_form">
+            <div class="contact-form">
+                <h2>Contact</h2>
+                <form onsubmit="sendEmail(); reset(); return false"  method="POST">
+                  <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                  </div>
+                  <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                  </div>
+                  <div class="form-group">
+                    <label for="feedback">Feedback:</label>
+                    <textarea id="feedback" name="feedback" required></textarea>
+                  </div>
+                  <div class="form-group">
+                    <button type="submit">Submit</button>
+                  </div>
+                </form>
+              </div>
+            </section>
+    </main>
+    <footer>        <p class="copyright">&copy; 2023 Nausad Alam Hawari. All rights reserved.</p>
+        <div class="icons">
+        <a href="https://www.instagram.com/nausad_alam__/" target="_blank" class="footer__icon "><i class="bx bxl-instagram"></i></a>
+        <a href="https://www.facebook.com/nausad.alam.90038/" target="_blank" class="footer__icon"><i class="bx bxl-facebook"></i></a>
+        <a href="https://twitter.com/nausad_alam__" target="_blank" class="footer__icon"><i class="bx bxl-twitter"></i></a>
+      </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.15/dist/typed.umd.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
