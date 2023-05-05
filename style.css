@@ -175,7 +175,7 @@ h3{
     background-color: #f3f5f8;
 }
 .h4{
-    color: #3d535f;
+    color: #f3f5f8;
     text-align: center;
     margin: 10px 10vw;
     letter-spacing: 0.06rem;
@@ -235,7 +235,7 @@ button:hover{
 }
 footer{
     background-color: #7f00ff;
-    color: #3d535f;
+    color: #f3f5f8;
     padding: 20px;
     border-radius: 20px;
   }
@@ -254,6 +254,7 @@ footer{
   }
   .footer__icon{
     padding: 0 8px;
+    color: #f3f5f8;
   }
 
   
